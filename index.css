@@ -1,0 +1,180 @@
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.flexContainer{
+    display: flex;
+    background-color: #c3ccc8;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.flex{
+    display: flex;
+    height: 100vh;
+}
+
+/* left section  */
+.number{
+    font-size: 25pt;
+}
+
+.name{
+    font-size: 35pt;
+    font-weight: bold;
+}
+
+.flex_TopInformation{
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 40px;
+    
+}
+
+.top{
+    padding-top: 45px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    color: #ffff;
+
+}
+
+.text{
+    color: #fff;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.region{
+    display: flex;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    margin-bottom: 10%;
+    justify-content: flex-start;
+    color: #fff;
+    margin-left: 0;
+    width: 20px;
+   
+}
+
+.imagePokemon{
+    align-items: center;
+    justify-content: flex-start;
+    flex-grow: 1;
+    padding-left: 15%;
+    
+}
+
+.pokemonName{
+    position: absolute;
+    font-size: 80pt;
+    font-weight: bolder;
+    left: 20%;
+    top: 40%;
+    color: rgba(0, 0, 0, 0.300);
+
+}
+
+.ralts{
+    width: 380px;
+    height: 380px;
+    justify-content: flex-end;
+}
+
+.stats{
+    flex-grow: 1;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.title{
+    display: block;
+    font-size: 30pt;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding-bottom: 40px;
+}
+
+.flexCircles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20%;
+    padding-bottom: 10px;
+    
+}
+
+.circle{
+    width: 60px;
+    height: 60px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -1px 4px 5px 0.1px rgba(0, 0, 0, 0.2);
+}
+
+.circletype {
+    width: 40px;
+    height: 40px;
+}
+
+.info_content{
+    display: flex;
+    flex-direction: row;
+}
+
+.line{
+    width: 5px;
+    background-color: #fff;
+    height: 100%;
+    margin-right: 10px;
+    border-radius: 2px;
+    
+
+
+}
+.info{
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 75%;
+    
+
+}
+
+.list_info{
+    padding: 10px;
+    background-color: #fff;
+    color: rgb(90, 90, 90);
+    border-radius: 8px;
+    margin: 5px;
+    font-size: 10pt;
+    box-shadow: -1px 4px px 0.1px rgba(0, 0, 0, 0.2);
+}
